@@ -1,0 +1,11 @@
+[identify]
+client_id="asyncnsq"
+heartbeat_interval=10000
+output_buffer_timeout=30000
+msg_timeout = 7200
+user_agent="rust"
+
+[httpd_adress]
+address="127.0.0.1:4161"
+topic="test_async_nsq"
+nsq_channel="tt"
